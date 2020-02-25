@@ -1,0 +1,150 @@
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: Arial;
+}
+.padding-site {
+  padding: 50px;
+  box-sizing: border-box;
+}
+.main-header {
+  width: 100%;  
+  color: #fff;
+  background-color: #445162;
+  box-sizing: border-box;
+}
+.main-header:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.main-header-wrp {
+  width: 500px;
+  float: left;  
+  box-sizing: border-box;
+}
+.main-header-title {  
+  display: block;
+  margin: 0;
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 400;  
+}
+.main-header-list {
+  margin: 0;
+  padding: 0 0 0 35px; 
+  list-style-type: none;  
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: bold;  
+}
+.main-header-list li {
+  position: relative;
+}
+.main-header-list-item {
+
+}
+.main-header-list li:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;  
+  position: absolute;
+  top: 4px;
+  left: -36px;
+  background-image: url(../img/check-icon.png);
+}
+.main-header-foto {
+  display: block;
+  width: 469px;
+  height: 214px;
+  float: right;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.main-content {
+  width: 100%;    
+  box-sizing: border-box;
+  color: #445161;
+}
+.about-prod {
+  width: 100%;  
+}
+.about-prod:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.about-prod-wrp {
+  width: 670px;  
+  float: left;
+  box-sizing: border-box;
+}
+.about-prod-title {
+  display: block;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.about-prod-content {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+.about-prod-foto {
+  float: right;
+  box-sizing: border-box;
+  background-color: #445162;
+}
+.dignity-prod {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.dignity-prod:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.dignity-prod-title {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.dignity-prod-content {
+  display: flex;
+  color: #333333;
+}
+.dignity-prod-content-left {
+  display: block;
+  list-style-type: none;
+  margin-right: 23px;  
+}
+.dignity-prod-content-right {
+  display: block;
+  list-style-type: none;   
+}
+.dignity-prod-details {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  position: relative;
+}
+.dignity-prod-details:before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  border:1px solid black;
+  position: absolute;
+  top: 6px;
+  left: -45px;
+  background-image: url(../img/cross_icon.png);
+}
