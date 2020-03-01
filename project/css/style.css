@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .container {
   width: 1280px;
   margin: 0 auto;
@@ -69,7 +72,7 @@ a {
   color: #445161;
 }
 .about-prod {
-  width: 100%;  
+  width: 100%;
 }
 .about-prod:after {
   content: "";
@@ -87,7 +90,7 @@ a {
   margin: 0 0 30px 0;  
   font-size: 30px;
   line-height: 36px;
-  font-weight: 400;
+  font-weight: bold;
 }
 .about-prod-content {
   margin: 0 0 20px 0;
@@ -104,15 +107,11 @@ a {
   box-sizing: border-box;
   background-color: #445162;
 }
-.dignity-prod {
+.dignity {
   width: 100%;
   background-color: #f5f5f5;
-}
-.dignity-prod:after {
-  content: "";
-  display: block;
-  width: 100%;
-  clear: both;
+  display: flex;
+  flex-wrap: wrap;
 }
 .main-titles {
   display: block;
@@ -121,42 +120,44 @@ a {
   text-align: center;
   font-size: 30px;
   line-height: 36px;
-  font-weight: 400;
+  font-weight: bold;
 }
-.dignity-prod-content {
-  display: block;  
-  list-style-type: none;
-  margin: 0;  
-  box-sizing: border-box;    
+.dignity-content {
+    width: 43%;
+    margin: 0 40px;
 }
-.dignity-prod-details {  
-  width: 45%;
-  font-size: 14px;  
-  line-height: 24px;
-  font-weight: 400;
-  box-sizing: border-box;
-  float: left;
-  margin: 0 64px 35px 0;
-  position: relative;  
+.dignity-details {
+  margin: 0 0 35px 0;
 }
-.dignity-prod-details:nth-child(even) {
-  margin: 0;
+.dignity-details summary {
+  display: block;
+  position: relative;
+  outline: none;
 }
-.dignity-prod-details:before {
+.dignity-details summary::-webkit-details-marker {
+  display: none;
+}
+.dignity-details summary:before {
   content: "+";
   display: block;
   width: 32px;
   height: 32px;
   border:1px solid black;
   position: absolute;
-  top: 6px;
-  left: -45px;
+  top: 0;
+  left: -40px;
   background-color: #445162;
   color: #fff;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   line-height: 30px;
+}
+details[open] summary:before {
+  content: "-";
+}
+.screenshots {
+  width: 100%;
 }
 .screenshots:after {
   content: "";
@@ -169,16 +170,19 @@ a {
 }
 .screenshots-description {
   width: 49%;
-  margin: 0;
+  margin: 0 0 20px 0;
   float: left;
   box-sizing: border-box;
+}
+.screenshots-description-bottom {
+  margin: 0;
 }
 .screenshots-img {
   display: block;
   width: 200px;
   height: 150px;
   float: left;
-  margin: 0 15px 30px 0;
+  margin: 0 15px 0 0;
   box-sizing: border-box;
   background-color: #445161;
 }
@@ -216,10 +220,13 @@ h3 {
   margin: 0 20px 24px 0;
   float: left;
 }
+.reviews-content-face-bottom {
+  margin: 0 20px 0 0;
+}
 .reviews-img {
   display: block;
   min-width: 75px;
-  height: 75px;
+  min-height: 75px;  
   margin: 0 30px 0 0;
   background-color: #445161;
   border-radius: 37px;
@@ -327,6 +334,7 @@ h3 {
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
+  text-transform: uppercase;
   box-sizing: border-box;
   background-color: #fff;
 }
@@ -345,7 +353,7 @@ h3 {
 .contacts-form {
   display: block;
   width: 500px;
-  margin: 0 75px 0 200px;  
+  margin: 0 0 0 249px;  
 }
 .contacts-form-item {
   display: block;
@@ -355,20 +363,25 @@ h3 {
   width: 500px;
   height: 40px;
   border-radius: 6px;
+  box-sizing: border-box;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #445162;
 }
-.contacts-form-item::placeholder {  
+.contacts-form-item::placeholder { 
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+}
+.contacts-form-item:hover {
+  opacity: .7;
 }
 .contacts-form-area {
   display: block;
   margin: 0 0 21px 0;
   padding: 13px 10px;
+  box-sizing: border-box;
   outline: none;
   width: 500px;
   height: 170px;
@@ -378,10 +391,13 @@ h3 {
   font-weight: 400;
   color: #445162;
 }
-.contacts-form-area::placeholder {  
+.contacts-form-area::placeholder { 
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+}
+.contacts-form-area:hover {
+  opacity: .7;
 }
 .contacts-form-submit {
   display: block;
@@ -402,7 +418,8 @@ h3 {
   opacity: .7;
 }
 .contacts-content {
-  width: 240px;  
+  width: 240px;
+  margin: 0 0 0 75px; 
 }
 .contacts-list {
   display: block;
@@ -422,7 +439,7 @@ h3 {
   height: 26px;
   background-image: url(../img/skype_icon.png);
   position: absolute;
-  top: -4px;
+  top: -2px;
   left: -30px;
 }
 .icq {
