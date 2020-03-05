@@ -1,4 +1,12 @@
 
+@font-face {
+	font-family: 'Montserrat-Light';
+	src:url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+	font-family: 'Raleway-Regular';
+	src:url(../fonts/Raleway-Regular.ttf);
+}
 body {
 	margin: 0;
 }
@@ -24,24 +32,31 @@ a {
 	box-sizing: border-box;
 	display: flex;
 }
-.logo {
-	width: 64px;
+header a, {
+	color: #fff;	
+}
+.header a:hover {	
+	opacity: .7;
+}
+.header a:active {
+	color: #c7b299;
 }
 .brand {
+	display: flex;
+	width: 180px;
+	height: 56px;
 	font-size: 34px;
 	line-height: 1.7;
 	font-weight: 400;
 	letter-spacing: -0.04em;
-	font-family: Raleway;
-}
-.brand a {
-	color: #fff;
+	box-sizing: border-box;
+	font-family: 'Raleway-Regular';
 }
 .menu {	
 	margin: 0 0 0 219px;	
-	font-family: Montserrat;
+	font-family: 'Montserrat-Light';
 	font-size: 14px;
-	line-height: 3.2;
+	line-height: 4.2;
 	font-weight: 300;
 }
 .menu span {
@@ -49,10 +64,4 @@ a {
 }
 .menu span:last-child {
 	margin: 0;
-}
-.menu a:hover {
-	color: #c7b299;
-}
-.menu a:active {
-	color: #c7b299;
 }
