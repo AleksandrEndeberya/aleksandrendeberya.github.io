@@ -23,6 +23,7 @@ a {
 	height: 1024px;
 	color: #fff;
 	background-image: url(../img/fon.jpg);
+	background-size: cover;
 }
 .header {
 	width: 1170px;
@@ -52,16 +53,61 @@ header a, {
 	box-sizing: border-box;
 	font-family: 'Raleway-Regular';
 }
-.menu {	
-	margin: 0 0 0 219px;	
+.menu {
+	width: 770px;
+	margin: 0 0 0 219px;
 	font-family: 'Montserrat-Light';
 	font-size: 14px;
 	line-height: 4.2;
 	font-weight: 300;
-}
-.menu span {
-	margin-right: 29px;
+	display: flex;
+	justify-content: space-between;
 }
 .menu span:last-child {
 	margin: 0;
+}
+.menu-icons {
+	 margin-left: 63px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+.slider-titles {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.top-txt {
+	margin-top: 190px;
+	font-family: Raleway-Regular;
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: 500;
+}
+.middle-txt {
+	margin: 14px 0 19px 0;
+	font-family: Raleway-Regular;
+	font-size: 52px;
+	line-height: 1.2;
+	font-weight: 800;
+}
+.bottom-txt {
+	display: block;
+	width: 562px;
+	margin: 0 auto 52px;
+	font-family: Montserrat-Light;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+}
+.slider-btn {
+	width: 170px;
+	height: 53px;
+	border-radius: 5px;
+	margin: 0 auto;
+	outline: none;
+	color: #fff;
+	background-color: #998675;
 }
