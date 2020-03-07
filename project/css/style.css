@@ -478,7 +478,7 @@ body {
      content: "";
      display: block;
      width: 24px;
-     height: 26px;
+     height: 24px;
      background-image: url(../img/phone_icon.png);
      position: absolute;
      top: -4px;
@@ -489,59 +489,30 @@ body {
      margin-left: -30px;
      display: flex;
 }
- .twitter {
+ .contacts-icon-items {
      display: block;
      margin: 0 5px 0 0;
      width: 42px;
      height: 42px;
      border-radius: 21px;
-     background-image: url(../img/twitter.png);
+     background-image: url(../img/social_buttons.png);
 }
- .twitter:hover {
-     opacity: .7;
+.contacts-icon-items:nth-child(1) {
+     background-position: 0 0;  
 }
- .facebook {
-     display: block;
-     margin: 0 5px 0 0;
-     width: 42px;
-     height: 42px;
-     border-radius: 21px;
-     background-image: url(../img/facebook.png);
+.contacts-icon-items:nth-child(2) {
+     background-position: -50px 0; 
 }
- .facebook:hover {
-     opacity: .7;
+.contacts-icon-items:nth-child(3) {
+     background-position: -100px 0; 
 }
- .insta {
-     display: block;
-     margin: 0 5px 0 0;
-     width: 42px;
-     height: 42px;
-     border-radius: 21px;
-     background-image: url(../img/insta.png);
+.contacts-icon-items:nth-child(4) {
+     background-position: -150px 0; 
 }
- .insta:hover {
-     opacity: .7;
+.contacts-icon-items:nth-child(5) {
+     background-position: -198px 0; 
 }
- .google {
-     display: block;
-     margin: 0 5px 0 0;
-     width: 42px;
-     height: 42px;
-     border-radius: 21px;
-     background-image: url(../img/google.png);
-}
- .google:hover {
-     opacity: .7;
-}
- .youtube {
-     display: block;
-     margin: 0;
-     width: 42px;
-     height: 42px;
-     border-radius: 21px;
-     background-image: url(../img/youtube.png);
-}
- .youtube:hover {
+ .contacts-icon-items:hover {
      opacity: .7;
 }
  .copyright {
