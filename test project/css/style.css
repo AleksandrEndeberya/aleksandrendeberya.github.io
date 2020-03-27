@@ -132,7 +132,7 @@ a {
 .menu-icons {
 	width: 10%;
 	margin-left: 63px;
-	padding: 0;
+	padding: 15px 0;
 	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;	
