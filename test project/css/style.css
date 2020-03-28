@@ -1204,7 +1204,7 @@ input[type="search"]:focus {
 	opacity: .7;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media all and (min-width: 320px) and (max-width: 480px) {
 	.container {
 		width: 100%;
 	}
