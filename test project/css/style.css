@@ -1205,7 +1205,10 @@ input[type="search"]:focus {
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
 
 	.container {
 		width: 100%;
