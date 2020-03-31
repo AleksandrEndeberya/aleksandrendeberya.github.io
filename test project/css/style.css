@@ -391,8 +391,7 @@ input[type="search"]:focus {
 }
 
 .real-txt {
-	display: block;
-	width: 757px;
+	display: block;	
 	text-align: center;
 	margin: 24px 0 40px 0;
 	font-family: 'montserrat-light';
