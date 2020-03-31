@@ -1204,7 +1204,9 @@ input[type="search"]:focus {
 	opacity: .7;
 }
 
-@media (min-width: 320px) and (max-width: 750px) {
+
+
+@media (min-width: 320px) and (max-width: 480px) {
 	.container {
 		width: 100%;
 	}
@@ -1229,7 +1231,7 @@ input[type="search"]:focus {
 		margin: 0 auto;
 		line-height: 2.8;
 		flex-wrap: wrap;
-		flex-direction: column;
+		/*flex-direction: column;*/
 		order: 3;
 	}
 	.menu-input {
