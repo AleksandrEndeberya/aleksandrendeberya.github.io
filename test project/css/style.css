@@ -55,7 +55,7 @@
  ::before,
  ::after,
  :active {
-	transition: .2s;
+	transition: .1s;
 }
 
 body {
@@ -141,7 +141,7 @@ a {
 }
 
 .menu-icons {
-	width: 10%;
+	width: 140px;
 	margin-left: 63px;
 	padding: 15px 0;
 	box-sizing: border-box;
@@ -192,7 +192,7 @@ input[type="search"]:focus {
 	color: inherit;
 	position: absolute;
 	top: 55px;
-	left: -84px;
+	left: -90px;
 }
 
 .header-content {
@@ -372,7 +372,7 @@ input[type="search"]:focus {
 
 #real {
 	width: 100%;
-	padding: 83px 0 0 0;
+	padding: 83px 346px 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -697,8 +697,7 @@ input[type="search"]:focus {
 	outline: none;
 }
 
-.video-txt {
-	width: 550px;
+.video-txt {	
 	padding: 0;
 	box-sizing: border-box;
 	position: absolute;
@@ -886,8 +885,7 @@ input[type="search"]:focus {
 	font-family: 'montserrat-light';
 	font-size: 24px;
 	line-height: 20px;
-	color: #fff;
-	width: 50px;
+	color: #fff;	
 	padding: 9px 10px;
 	box-sizing: border-box;
 	background-color: #363636;
@@ -1178,6 +1176,10 @@ input[type="search"]:focus {
 	margin: 0 0 12px 0;
 }
 
+.widget-pic:hover {
+	transform: scale(1.2);
+}
+
 .footer {
 	width: 100%;
 	background-color: #111111;
@@ -1203,10 +1205,8 @@ input[type="search"]:focus {
 	opacity: .7;
 }
 
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
-and (orientation : portrait) {
+@media (max-width: 480px) and (min-width: 320px) {
+
 	.container {
 		width: 100%;
 	}
@@ -1230,8 +1230,7 @@ and (orientation : portrait) {
 		width: 100%;
 		margin: 0 auto;
 		line-height: 2.8;
-		flex-wrap: wrap;
-		flex-direction: column;
+		flex-wrap: wrap;		
 		order: 3;
 	}
 	.menu-input {
