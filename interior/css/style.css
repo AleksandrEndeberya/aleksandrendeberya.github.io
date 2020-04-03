@@ -1,0 +1,18 @@
+body {
+     margin: 0;
+}
+
+ .container {
+     width: 1366px;
+     margin: 0 auto;     
+}
+
+ .padding-site {
+     padding: 63px 0 0 98px;
+     box-sizing: border-box;
+}
+
+ a {
+     text-decoration: none;
+}
+
