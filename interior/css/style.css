@@ -47,18 +47,36 @@ a {
 }
 
 .menu {
+	display: flex;
+	align-items: baseline;
 	margin-right: 167px;
 }
 
 input[type="search"] {
-    width: 23px;
-    height: 23px;
-    outline: none;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url(../img/search.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: none;
-    background-color: transparent;
+	width: 23px;
+	height: 23px;
+	outline: none;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(../img/search.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: transparent;
+}
+
+.menu-item {
+	margin-right: 20px;
+	font-family: "montserrat-light";
+	font-size: 14px;
+	line-height: 48px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: 300;
+	color: #8c8c8c;
+}
+
+.menu-item-active {
+	font-family: "montserrat-bold";
+	color: #212121;
 }
