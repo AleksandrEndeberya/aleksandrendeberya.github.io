@@ -51,14 +51,14 @@ a {
 }
 
 input[type="search"] {
-	width: 23px;
-	height: 23px;
-	outline: none;
-	padding: 0;
-	box-sizing: border-box;
-	background-image: url(../img/search.svg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	border: none;
-	background-color: transparent;
+    width: 23px;
+    height: 23px;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../img/search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
 }
