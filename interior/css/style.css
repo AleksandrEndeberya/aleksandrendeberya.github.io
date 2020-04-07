@@ -51,6 +51,9 @@ a {
 	align-items: baseline;
 	margin-right: 167px;
 }
+.menu a {
+  margin-right: 20px;
+}
 
 input[type="search"] {
 	width: 23px;
@@ -66,7 +69,6 @@ input[type="search"] {
 }
 
 .menu-item {
-	margin-right: 20px;
 	font-family: "montserrat-light";
 	font-size: 14px;
 	line-height: 48px;
@@ -79,4 +81,12 @@ input[type="search"] {
 .menu-item-active {
 	font-family: "montserrat-bold";
 	color: #212121;
+}
+
+.menu-item-active:after {
+  content: "";
+  display: block;
+  width: inherit;
+  height: 3px;
+  background-color: #212121;
 }
