@@ -46,10 +46,19 @@ a {
 	box-sizing: border-box;
 }
 
+.logo {
+	padding: 13px 0;
+}
+
 .menu {
 	display: flex;
 	align-items: baseline;
+	justify-content: space-between;
 	margin-right: 167px;
+}
+
+.menu-link {
+	margin-right: 20px;
 }
 
 input[type="search"] {
@@ -66,7 +75,6 @@ input[type="search"] {
 }
 
 .menu-item {
-	margin-right: 20px;
 	font-family: "montserrat-light";
 	font-size: 14px;
 	line-height: 48px;
@@ -77,15 +85,12 @@ input[type="search"] {
 }
 
 .menu-item-active {
+	display: block;
+	height: 40px;
+	text-align: center;
+	padding: 0 10px;
+	box-sizing: border-box;
 	font-family: "montserrat-bold";
 	color: #212121;
-}
-
-.menu-item-active:after {
-	content: "";
-	display: block;
-	width: 74px;
-	height: 3px;
-	background-color: #000;
-	text-align: center;
+	border-bottom: 3px solid #212121;
 }
