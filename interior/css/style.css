@@ -46,6 +46,10 @@ a {
     box-sizing: border-box;
 }
 
+.logo {
+    padding: 13px 0;
+}
+
 .menu {
     display: flex;
     align-items: baseline;
@@ -66,7 +70,10 @@ input[type="search"] {
 }
 
 .menu-item {
-    margin-right: 20px;
+    display: block;
+    height: 45px;
+    padding: 0 10px;
+    box-sizing: border-box;
     font-family: "montserrat-light";
     font-size: 14px;
     line-height: 48px;
