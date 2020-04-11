@@ -53,12 +53,7 @@ a {
 .menu {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
     margin-right: 167px;
-}
-
-.menu-link {
-    margin-right: 20px;
 }
 
 input[type="search"] {
@@ -75,6 +70,10 @@ input[type="search"] {
 }
 
 .menu-item {
+    display: block;
+    height: 45px;
+    padding: 0 10px;
+    box-sizing: border-box;
     font-family: "montserrat-light";
     font-size: 14px;
     line-height: 48px;
@@ -85,20 +84,6 @@ input[type="search"] {
 }
 
 .menu-item-active {
-    display: block;
-    height: 40px;
-    text-align: center;
-    box-sizing: border-box;
-    font-family: "montserrat-bold";
-    color: #212121;
-    border-bottom: 3px solid #212121;
-}
-
-.menu-link:hover .menu-item {
-    display: block;
-    height: 40px;
-    text-align: center;
-    box-sizing: border-box;
     font-family: "montserrat-bold";
     color: #212121;
     border-bottom: 3px solid #212121;
